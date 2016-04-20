@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41539D941CC74E5400CDC10A /* ReuseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41539D931CC74E5400CDC10A /* ReuseView.xib */; };
+		41539D961CC74F7700CDC10A /* ReuseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41539D951CC74F7700CDC10A /* ReuseView.swift */; };
+		41539D981CC7618E00CDC10A /* IBInspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41539D971CC7618E00CDC10A /* IBInspectableView.swift */; };
 		41D9EAD71CC5FF000078806C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9EAD61CC5FF000078806C /* AppDelegate.swift */; };
 		41D9EAD91CC5FF000078806C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9EAD81CC5FF000078806C /* ViewController.swift */; };
 		41D9EADC1CC5FF000078806C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D9EADA1CC5FF000078806C /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41539D931CC74E5400CDC10A /* ReuseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReuseView.xib; sourceTree = "<group>"; };
+		41539D951CC74F7700CDC10A /* ReuseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseView.swift; sourceTree = "<group>"; };
+		41539D971CC7618E00CDC10A /* IBInspectableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBInspectableView.swift; sourceTree = "<group>"; };
 		41D9EAD31CC5FF000078806C /* TestReuseXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestReuseXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D9EAD61CC5FF000078806C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D9EAD81CC5FF000078806C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				41D9EADD1CC5FF000078806C /* Assets.xcassets */,
 				41D9EADF1CC5FF000078806C /* LaunchScreen.storyboard */,
 				41D9EAE21CC5FF000078806C /* Info.plist */,
+				41539D931CC74E5400CDC10A /* ReuseView.xib */,
+				41539D951CC74F7700CDC10A /* ReuseView.swift */,
+				41539D971CC7618E00CDC10A /* IBInspectableView.swift */,
 			);
 			path = TestReuseXib;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D9EAE11CC5FF000078806C /* LaunchScreen.storyboard in Resources */,
+				41539D941CC74E5400CDC10A /* ReuseView.xib in Resources */,
 				41D9EADE1CC5FF000078806C /* Assets.xcassets in Resources */,
 				41D9EADC1CC5FF000078806C /* Main.storyboard in Resources */,
 			);
@@ -137,6 +147,8 @@
 			files = (
 				41D9EAD91CC5FF000078806C /* ViewController.swift in Sources */,
 				41D9EAD71CC5FF000078806C /* AppDelegate.swift in Sources */,
+				41539D981CC7618E00CDC10A /* IBInspectableView.swift in Sources */,
+				41539D961CC74F7700CDC10A /* ReuseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestReuseXib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tianxun.main.TestReuseXib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinwang.main.TestReuseXib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestReuseXib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tianxun.main.TestReuseXib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinwang.main.TestReuseXib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -288,6 +300,7 @@
 				41D9EAE71CC5FF000078806C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
